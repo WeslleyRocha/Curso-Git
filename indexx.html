@@ -1,0 +1,175 @@
+<html lang="pt-br"> <!-- Definir linguagem da pagina PT-->
+        <head>
+                <meta charset="utf-8"> <!-- para colocar acentos -->
+                </TITLE> <p align=center> <b> <font="verdana"> <font size="5">  <a name="O que é HTML?"> O que é HTML? </font> </font> </b> </p> </TITLE> </a> 
+                 <!--Titulo com referencia-->
+        </head>
+<body vlink="blue">
+
+<p> <p align=justify> <font="Comic Sans MS"> <font color="#1C1C1C"> Ao acessar uma página web através de um navegador, ele é capaz de interpretar o código HTML e renderizá-lo de forma compreensível para o usuário final, exibindo textos, botões etc. com as configurações definidas por meio das diversas tags que essa linguagem dispõe. </font> </font> </p> </p>
+
+
+<p> <p align=justify> <font="Comic Sans Ms"> <font color="#1c1c1c"> Atualmente a <b> HTML </b> encontra-se na versão 5 e é padronizada pelo W3C (World Wide Web Consortium), uma organização internacional responsável por estabelecer padrões para a internet, como a linguagem <b>XML</b>, <b>CSS</b> e o <b>SOAP</b>. </font> </p>  </p> <!-- Primeiro Paragrafo-->
+
+<hr> <!-- Linha sobra a pagina-->
+
+<p align=center>  <b> <font="verdana"> <font size="5"> Estrutura básica de uma página HTML   </font> </font> </b> </p>
+
+
+<p> <p align=justify> <font="Comic Sans MS"> <font color="#1C1C1C"> A <b> estrutura básica de uma página HTML </b> pode ser vista na <b> Listagem 1 </b>, na qual podemos ver as principais tags que são necessárias para que o documento seja corretamente interpretado pelos browsers. </font> </font> </p> </p>
+
+<a href="https://www.devmedia.com.br/html-basico-codigos-html/16596"> <p align=center><IMG srcset="000.PNG"> </p> </a> <!--Imagem com link-->
+
+
+<ul> <!--Abrindo uma lista -->
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linha 1:</b> a instrução <i>DOCTYPE</i> deve ser sempre a primeira a aparecer em uma página <b>HTML</b> para indicar ao browser qual versão da linguagem usada. Nesse caso, estamos trabalhando com a <b>HTML5</b>, versão na qual a declaração do <i>DOCTYPE</i> é bastante simples, como podemos ver na listagem;  </font></p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linhas 2</b> e <b>10</b>: abertura e fechamento da tag <i>html</i>, que delimita o documento. Sendo assim, todas as demais tags da página devem estar nesse espaço; </font></p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linhas 3 </b> e <b>6</b>: abertura e fechamento da tag <i>head</i>, que define o cabeçalho do documento. O conteúdo nesse espaço não é visível no browser, mas contém instruções sobre seu conteúdo e comportamento. Dentro dessa tag, por exemplo, podem ser inseridas folhas de estilo e scripts;  </font></p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linha 4</b>: a tag <i>meta</i>, nesse caso, especifica qual conjunto de caracteres (character set ou charset) será usado para renderizar o texto da página. O UTF-8 contém todos os caracteres dos padrões Unicode e ASCII, sendo, portanto, o mais utilizado em páginas web. A mesma tag <i>meta</i>, porém com outros atributos, pode ser utilizada para outros fins, como na SEO (Search Engine Optimization); </font> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linha 5</b>: a tag <i>title</i>, define o título da página, aquele que aparece na janela/aba do navegador;  </font> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linha 7</b> e <b>9</b>: abertura e fechamento da tag <i>body</i>, marcando o espaço no qual deve estar contido o conteúdo visual da página. As demais tags que representam texto, botões etc. devem ser adicionadas nesse intervalo;</font> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> <b>Linha 8</b>: nessa linha podemos observar a sintaxe para adição de comentários em <i>HTML</i>. Esse trecho não é renderizado pelo browser. </font> </p>
+
+</ul> <!--Fechando lista-->
+
+<hr>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> Para <b>desenvolver páginas com HTML</b> basicamente precisamos de um editor de texto, como o Bloco de Notas do Windows, Nano e Emacs no Linux, entre vários outros. Há, ainda, editores com opções avançadas, como recursos de syntax hilghligt e autocomplete, como Sublime Text, Atom, Brackets e Visual Studio Code, que podem ser usados para <b>editar documentos HTML</b>. </font> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> Independentemente do editor utilizado, podemos simplesmente copiar o código da <b>Listagem 1</b> para um deles e salvar o arquivo com extensão <i>.html</i>. Em seguida, podemos abrir esse arquivo em um browser. </font> </p>
+
+<hr>
+<p> <a href="#O que é HTML?"> O que é HTML?</a> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <b> Conheça nosso site em: </font> </b> <a href="https://www.devmedia.com.br/html-basico-codigos-html/16596"> DevMedia </a>
+
+        <p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <b> Contato por </font> </b> </b> <a href="mailto:email.site@devmedia.com"> E-mail </a> 
+              
+              
+<hr>
+ <!--Criando Tabelas no HTML-->
+<p align=center>  <b> <font="verdana"> <font size="5"> Tabelas no HTML  </font> </font> </b> </p>
+
+<p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> Tabelas são elementos utilizados com frequência para exibir dados de forma organizada em linhas e colunas. No <b>HTML</b>, elas são formadas por três tags básicas: <i>table</i>, para delimitar a tabela; <i>tr</i>, para indicar as linhas; e <b>td</b> para formar as colunas. A <b>Listagem 7</b> mostra um exemplo simples de tabela com três linhas e duas colunas, e seu resultado pode ser visto na <b>Figura 4</b>. </b>. </font> </p>
+
+<p align=center><IMG srcset="001.PNG"> </p> </a> <!--Imagem-->
+
+        
+        <br> <p align=center> <font="verdana"> <b><font size="4.5"> Exemplo de Tabela  </font> </font> </p> </b>
+
+<Table Border ="2" bordercolor="black"  width="500" height="15%" bgcolor="#E0FFFF" align="center"> <!--estrutura da tabela-->
+
+       <TD bgcolor="#87CEFA" ALIGN="center" VALIGN ="center" HEIGHT="15%" COLSPAN="500" FONT FACE= "Comic Sans MS" ><B>CADASTRO DE CLIENTES</B></TD>
+
+        <TR> <!-- Inunciado da tabela-->
+        <TD bgcolor="#87CEFA" ALIGN="center" VALIGN ="center" FONT FACE= "Comic Sans MS" > <b> NOME</b></TD>
+        <TD bgcolor="#87CEFA" ALIGN="center" VALIGN ="center" FONT FACE= "Comic Sans MS" > <b> SOBRENOME</b></TD>
+        <TD bgcolor="#87CEFA" ALIGN="center" VALIGN ="center" FONT FACE= "Comic Sans MS" > <B> E-MAIL</B></TD>
+        
+        <TR> <!--Crientes da tabela-->
+        <TD> Marcelo</TD>
+        <TD> Dias</TD>
+        <TD> marcelo.dias.hot.com</TD>
+
+        <TR>
+        <TD> Menino</TD>
+        <TD> Machado</TD>
+        <TD> menino.macho@hot.com</TD>
+
+        <TR>
+        <TD> Sumara</TD>
+        <TD> Furtado</TD>
+        <TD> sumara.furtado@hotm.com</TD>
+
+
+
+</Table>
+
+<HR>
+        <p align=center>  <b> <font="verdana"> <font size="5"> Formulários no HTML  </font> </font> </b> </p>
+
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> Formulários são normalmente utilizados para integrar a página HTML a algum processamento no lado servidor. Nesses casos, a página envia dados para uma aplicação (Java, PHP, .NET etc.), que os recebe, trata e retorna algum resultado. </b>. </font> </font> </p>
+
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> No HTML, geralmente usamos a tag <i>form</i> para delimitar a área na qual se encontram os campos a serem preenchidos pelo usuário, a fim de serem enviados para processamento no back-end (enquanto a página HTML é chamada de front-end da aplicação). </b>. </font> </font> </p>
+
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> A <b>Listagem 12</b> mostra um exemplo de formulário com vários tipos de campos para entrada de dados e um botão para submetê-los ao servidor. Na <b>Figura 8</b> vemos seu resultado. </b>. </font> </font> </p>
+
+<p align=center><IMG srcset="002.PNG"> </p> </a> <!--Imagem-->
+
+<br> <p align=center> <font="verdana"> <b><font size="4.5"> Exemplos de Formulários no HTML </font> </font> </p> </b>
+
+        <FORM action="teste@teste.com.br" method="GET">
+
+        <P><FONT FACE="Comic Sans MS"> Nome Completo:     <INPUT TYPE=password NAME="name" SIZE="20" MAXLENGHT="30" placeholder=" xxxxx xx xxxxxx xxxx " required="required" ></FONT></P>
+        
+        <P><FONT FACE="Comic Sans MS"> CPF:     <INPUT TYPE=TEXT NAME="CPF" SIZE="20" MAXLENGHT="30" placeholder=" xxx.xxx.xxx-xx" required="required" ></FONT></P>
+       
+        <p><FONT FACE="Comic Sans MS"> Nº do Cartão: <input type="tex" name ="CVV" placeholder=" xxx " size="1" maxlength="1" required="required" ></font></p>
+        
+        <p><FONT FACE="Comic Sans MS"> Validade do Cartão: <INPUT TYPE="tex" name="data" placeholder=" xx/xx  " size="1" maxlength="10" required="required" ></FONT></p>
+        
+    
+        <p><input type=radio name="visa" checked> VISA <br>
+        <input type=radio name="mastercard" > MASTERCARD </p>
+
+        <INPUT TYPE=checkbox NAME="dadoscartao" SIZE="1"> Salvar cartão para futuras compras. <BR>
+        <INPUT TYPE=checkbox NAME="pgautomatico" SIZE="1"> Pagamento automático. <BR>
+        
+        <p> Obs: <textarea name="obs" rows="3" cols="30"></textarea></p>
+        
+        <input type=submit value="Cadastrar"> <input type=reset value="Limpar">
+
+<HR>
+        <p align=center>  <b> <font="verdana"> <font size="5"> Frames  </font> </font> </b> </p> <!--Frames-->
+
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> Com molduras, você pode exibir mais de um documento HTML na mesma janela do navegador. Cada documento HTML é chamado de moldura, e cada moldura é independente das outras. </b>. </font> </font> </p>
+
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> As desvantagens de usar molduras são: </b>. </font> </font> </p>
+        
+        <ul> <!--Abrindo Lista-->
+
+        <p> <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> O desenvolvedor Web deve vigiar mais documentos HTML </p>
+
+        <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> É difícil imprimir a página inteira </p>
+         </p>
+        
+        </ul> <!--Fechando lista-->
+        
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> A Tag de Conjunto de Molduras (Frameset Tag) </b>. </font> </font> </p>
+
+        <ul> <!--Abrindo Lista-->
+        <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> A tag <i>< frameset ></i> define como dividir a janela em molduras </p>
+                
+        <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> Cada conjunto de molduras define um conjunto de linhas <b>OU</b> colunas </p>
+                
+        <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> Os valores das linhas/colunas indicam a quantidade da área da tela que cada linha/coluna irá ocupar </p>                
+        </ul> <!--Fechando lista-->
+        
+        <p> <p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c"> A Tag Moldura (Frame) </b>. </font> </font> </p>
+        
+        <ul> <!--Abrindo Lista-->
+        <p align="justify"> <font="Comic sans ms"> <font color="#1c1c1c"> <li> A tag <i>< frame ></i> define qual documento HTML colocar em cada moldura </p>
+        </ul> <!--Fechando lista-->       
+
+        <p><p align="justify"> <font="Comic Sans Ms"> <font color="#1c1c1c">     No exemplo abaixo temos um conjunto de frames com duas colunas. A primeira coluna é configurada em 25% da largura da janela do navegador. A segunda coluna é configurada em 75% da largura da janela do navegador. O documento HTML "frame_a.htm" é colocado na primeira coluna, e o documento HTML "frame_b.htm" é colocado na segunda coluna: </b>. </font> </font> </p>
+       
+</hr>
+        <FRAMESET cols="25%,*,25%">
+        <frame src="frame_a.html">
+        <frame src="frame_b.htmL">        
+        <frame src="frame_c.html">
+
+
+        </frameset>
+        
+
+
+
+</body>
+</html>
